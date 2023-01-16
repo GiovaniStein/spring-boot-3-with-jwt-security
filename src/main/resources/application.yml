@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3308/jwt_security?useTimezone=true&serverTimezone=UTC
+    username: admin
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database-platform: org.hibernate.dialect.MySQL57Dialect
+
+jwt:
+  secret: 8b7f5f1baabb9e2c8a902a0718ee067d2b08164ddd05d39dd81f58bd0f6b7a76
+  expiration: 86400000
+

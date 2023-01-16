@@ -1,0 +1,13 @@
+package com.giovani.springbootjwt;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBoot3WithJwtSecurityApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBoot3WithJwtSecurityApplication.class, args);
+	}
+
+}
